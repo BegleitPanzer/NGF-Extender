@@ -1,6 +1,7 @@
 class CfgFunctions 
 {
     //be careful when overwriting functions as version updates can break your extension
+    /*
     class A3A 
     {
         class Missions 
@@ -11,6 +12,7 @@ class CfgFunctions
             };
         };
     };
+    */
 
     //your own functions should be kept here
     class ADDON
