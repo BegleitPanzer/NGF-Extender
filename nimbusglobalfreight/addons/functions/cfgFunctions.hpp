@@ -33,7 +33,7 @@ class CfgFunctions
 
         class Support
         {
-            class planeParadropRun
+            class support_planeParadropRun
             {
                 file = QPATHTOFOLDER(Support\fn_support_planeParadropRun.sqf);
             }
