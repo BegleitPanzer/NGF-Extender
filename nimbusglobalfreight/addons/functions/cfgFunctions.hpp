@@ -11,7 +11,13 @@ class CfgFunctions
             };
         };
 
-        class 
+        class Paradrop
+        {
+            class paradrop_prepare
+            {
+                file = QPATHTOFOLDER(Paradrop\fn_paradrop_prepare.sqf);
+            }
+        }
     };
 
     //your own functions should be kept here
