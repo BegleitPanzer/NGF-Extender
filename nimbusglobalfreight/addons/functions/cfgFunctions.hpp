@@ -30,5 +30,13 @@ class CfgFunctions
                 file = QPATHTOFOLDER(Paradrop\fn_paradrop_prepare.sqf);
             }
         }
+
+        class Support
+        {
+            class planeParadropRun
+            {
+                file = QPATHTOFOLDER(Support\fn_support_planeParadropRun.sqf);
+            }
+        }
     }
 };
