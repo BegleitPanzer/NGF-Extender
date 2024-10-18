@@ -10,14 +10,6 @@ class CfgFunctions
                 file = QPATHTOFOLDER(Missions\fn_as_Official.sqf);
             };
         };
-
-        class Paradrop
-        {
-            class paradrop_prepare
-            {
-                file = QPATHTOFOLDER(Paradrop\fn_paradrop_prepare.sqf);
-            }
-        }
     };
 
     //your own functions should be kept here
@@ -28,4 +20,15 @@ class CfgFunctions
 			class WarLevelUpgrades {};
 		};
     };
+
+    class SCRT
+    {
+        class Paradrop
+        {
+            class paradrop_prepare
+            {
+                file = QPATHTOFOLDER(Paradrop\fn_paradrop_prepare.sqf);
+            }
+        }
+    }
 };
