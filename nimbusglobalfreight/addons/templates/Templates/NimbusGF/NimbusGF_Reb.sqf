@@ -20,7 +20,7 @@ private _warLevelUpgrades = [
 	[], // Level 9
 	[] // Level 10
 ];
-_warLevelUpgrades spawn a3ue_flex_norway_functions_fnc_WarLevelUpgrades;
+_warLevelUpgrades spawn nimbusglobalfreight_functions_fnc_WarLevelUpgrades;
 
 /////////////////
 //   反叛信息   //
@@ -28,9 +28,13 @@ _warLevelUpgrades spawn a3ue_flex_norway_functions_fnc_WarLevelUpgrades;
 
 ["name", "Nimbus Global Freight"] call _fnc_saveToTemplate;
 
+//["flag", "Flag_FIA_F"] call _fnc_saveToTemplate;
+//["flagTexture", "\A3\Data_F\Flags\flag_FIA_CO.paa"] call _fnc_saveToTemplate;
+//["flagMarkerType", "flag_FIA"] call _fnc_saveToTemplate;
+
 ["flag", "Flag_FIA_F"] call _fnc_saveToTemplate;
-["flagTexture", "\A3\Ui_f\data\Map\Markers\Flags\fia_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "\A3\Ui_f\data\Map\Markers\Flags\fia_ca.paa"] call _fnc_saveToTemplate;
+["flagTexture", "a3\data_f\flags\flag_fia_co.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_FIA"] call _fnc_saveToTemplate;
 
 ["vehiclesBasic", ["UK3CB_ION_I_Urban_M1030", "I_Crocus_AP", "I_Crocus_AT", "mavik_3T_IND"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["UK3CB_ION_I_Urban_LR_Closed", "UK3CB_ION_I_Urban_Hilux", "UK3CB_ION_I_Urban_M1025", "UK3CB_ION_I_Urban_SUV"]] call _fnc_saveToTemplate;
@@ -45,7 +49,8 @@ _warLevelUpgrades spawn a3ue_flex_norway_functions_fnc_WarLevelUpgrades;
 
 ["vehiclesCivCar", ["UK3CB_ADC_C_Ural_Open", "UK3CB_C_Hilux_Open", "UK3CB_ADC_C_UAZ_Open", "UK3CB_ADC_C_LR_Closed", "UK3CB_ION_I_Urban_SUV_Armoured", "UK3CB_ION_I_Urban_SUV_Armed", "UK3CB_ADC_C_LR_Closed", "UK3CB_ADC_C_LR_Closed", "UK3CB_ADC_C_Gaz24"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["C_Truck_02_transport_F", "C_Truck_02_covered_F"]] call _fnc_saveToTemplate;
-["vehiclesCivHeli", ["rhs_uh1h_idap", "UK3CB_MEC_C_AC500"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", ["rhs_uh1h_idap"]] call _fnc_saveToTemplate;
+["vehiclesCivPlane", ["UK3CB_MEC_C_AC500"]] call _fnc_saveToTemplate;
 ["vehiclesCivBoat", ["C_Boat_Civil_01_F", "C_Boat_Transport_02_F"]] call _fnc_saveToTemplate;
 //mf nigger tranny fucking retads go fuck your self 3cb devs you cup worshipping gay fucktards obama cock sucker
 ["staticMGs", ["", "", "UK3CB_ION_I_Woodland_M240_nest", "UK3CB_ION_I_Urban_M240_High", "UK3CB_ION_I_Urban_M240_Low", "UK3CB_ION_I_Urban_M2_MiniTripod", "UK3CB_ION_I_Urban_M2_TriPod", "UK3CB_ION_I_Urban_MK19_TriPod"]] call _fnc_saveToTemplate;
