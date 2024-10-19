@@ -45,7 +45,7 @@ _warLevelUpgrades spawn nimbusglobalfreight_functions_fnc_WarLevelUpgrades;
 
 ["vehiclesBoat", ["I_SDV_01_F", "UK3CB_MDF_B_RHIB_Gunboat", "rhsusf_mkvsoc"]] call _fnc_saveToTemplate;
 // 这该死的同性恋弱智狗屎波西米亚娘娘腔的爱鸡巴和弱智的 3CB claassnames 我他妈的恨波西米亚
-["vehiclesPlane", ["FIR_F16C", "FIR_F16D", "FIR_F15EX", "FIR_F15SE", "rhs_l159_cdf_b_CDF"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["USAF_C17","FIR_F16C", "FIR_F16D", "FIR_F15EX", "FIR_F15SE", "rhs_l159_cdf_b_CDF"]] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["UK3CB_ADC_C_Ural_Open", "UK3CB_C_Hilux_Open", "UK3CB_ADC_C_UAZ_Open", "UK3CB_ADC_C_LR_Closed", "UK3CB_ION_I_Urban_SUV_Armoured", "UK3CB_ION_I_Urban_SUV_Armed", "UK3CB_ADC_C_LR_Closed", "UK3CB_ADC_C_LR_Closed", "UK3CB_ADC_C_Gaz24"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["C_Truck_02_transport_F", "C_Truck_02_covered_F"]] call _fnc_saveToTemplate;

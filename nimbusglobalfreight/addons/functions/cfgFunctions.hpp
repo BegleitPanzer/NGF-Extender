@@ -23,6 +23,7 @@ class CfgFunctions
 		};
     };
 
+    /*
     class SCRT
     {
         class Paradrop
@@ -41,4 +42,5 @@ class CfgFunctions
             }
         }
     }
+    */
 };

@@ -19,7 +19,8 @@ paradropPlane setPosATL [getPosATL paradropPlane select 0, getPosATL paradropPla
 paradropPlane disableAI "TARGET";
 paradropPlane disableAI "AUTOTARGET";
 paradropPlane flyInHeight 800;
-private _minAltASL = ATLToASL [_positionDestination select 0, _positionDestination select 1, 0];
+//private _minAltASL = ATLToASL [_positionDestination select 0, _positionDestination select 1, 0];
+private _minAltASL = ATLToASL [_positionDestination select 0, _positionDestination select 1];
 paradropPlane flyInHeightASL [(_minAltASL select 2) +100, (_minAltASL select 2) +100, (_minAltASL select 2) +100];
 
 driver paradropPlane sideChat (localize "STR_chats_plane_paradrop_run");
@@ -40,7 +41,16 @@ _wp3 setWaypointSpeed "FULL";
 publicVariable "paradropPlane";
 
 private _timeOut = time + 600;
-waitUntil { sleep 2; currentWaypoint group paradropPlane == 4 or {time > _timeOut or {!canMove paradropPlane}} };
+//waitUntil { sleep 2; currentWaypoint group paradropPlane == 4 or {time > _timeOut or {!canMove paradropPlane}} };
+//waitUntil { uiSleep 2; currentWaypoint group paradropPlane == 4 || (time > _timeOut || {!canMove paradropPlane}) };
+
+waitUntil {
+    uiSleep 2;
+    !isNil {currentWaypoint group paradropPlane} && 
+    (currentWaypoint group paradropPlane == 4 || time > _timeOut || {!canMove paradropPlane})
+};
+
+
 
 if (isSupportMarkerPlacingLocked) then {
     isSupportMarkerPlacingLocked = false;

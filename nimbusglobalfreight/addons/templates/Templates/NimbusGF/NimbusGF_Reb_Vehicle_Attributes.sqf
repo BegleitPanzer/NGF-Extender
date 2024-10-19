@@ -67,6 +67,7 @@
     ["UK3CB_ION_I_Urban_MELB_AH6M_M", ["rebCost", 4500]],
     //固定翼飞机
     ["UK3CB_C_AC500", ["rebCost", 1500]],
+    ["USAF_C17", ["rebCost", 8000]],
     ["RHSGREF_A29B_HIDF", ["rebCost", 2500]],
     ["rhs_l159_cdf_b_CDF", ["rebCost", 4500]],
     ["FIR_F16C", ["rebCost", 15000]],
@@ -77,4 +78,4 @@
 
 
 
-    // ["mavik_3T_IND", ["rebCost", 100]],
+    // ["USAF_C17", ["rebCost", 8000]],
